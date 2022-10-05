@@ -1,0 +1,128 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'cursive' , sans-serif;
+}
+
+body{
+ animation: animate 20s infinite;
+}
+
+@keyframes animate {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #a240db;
+  }
+  50% {
+    background: #00b5ec;
+  }
+  75% {
+    background: #a240db;
+  }
+  100% {
+    background: #19dcea;
+  }
+}
+
+
+.calculator{
+ width: 250px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ border-radius: 15px;
+ padding: 10px;
+ background: rgba(255, 255, 255, 0.19);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(1px);
+   -webkit-backdrop-filter: blur(3.9px);
+   border: 1px solid rgba(255, 255, 255, 0.17);
+}
+table td{
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    color: #e6eaff;
+    background-color: #414141;
+    font-size: 20px;
+    transition: 0,6s;
+  }
+  .btn:hover {
+    background-color: #616161;
+
+  }
+
+  .result{
+    height: 120px;
+    border-top: 15px;
+    color: #e6eaff;
+    text-align: right;
+    margin: 3px;
+    word-wrap: break-word;
+    border-bottom:solid 1px #e6eaff;
+    font-size: 35px;
+  }
+
+  .ac{
+    background-color: #4861d3;
+    border-bottom-right-radius: 10px;
+    transition: 0,5s;
+  }
+
+  .ac:hover{
+    background-color: #5d70c7;
+  }
+
+  .equ{
+    background-color: #4861d3;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0,5s;
+  }
+
+  .equ:hover{
+    background-color: #5d70c7;
+  }
+    
+  .esp{
+    background-color: #5d74da;
+    transition: 0,5s;
+  }
+  .esp:hover{
+    background-color: #6f82d6
+  }
+  
+  .o{
+    border-top-right-radius: 10px;
+  }
+  .n{
+    border-top-left-radius: 10px;
+  }
+  
+  .del{
+    border-bottom-left-radius: 10px;
+  }
+  .d{
+    border-bottom-right-radius: 10px;
+  }
+  .t{
+    border-bottom-left-radius: 10px;
+  }  
+  .vir{
+    border-top-right-radius: 10px;
+  }
+
+  .z{
+    border-bottom-left-radius: 10px;
+  }
